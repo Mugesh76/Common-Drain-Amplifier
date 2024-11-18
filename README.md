@@ -3,13 +3,13 @@
 ## Common-Drain-Amplifier Design and Implementation using Cadence EDA Tools
 
 ## Abstract
-To design and implement a Common Drain Amplifier circuit using Cadence EDA tools, simulate its functionality, and analyze key parameters such as gain, input impedance, output impedance, and frequency response, helping to understand its behavior in impedance matching and voltage buffering applications.
+To design and implement a Differentiator Amplifier circuit using Cadence EDA tools, simulate its functionality,Key performance metrics such as gain, common-mode rejection ratio (CMRR), and bandwidth are analyzed through schematic and post-layout simulations. The results demonstrate the effectiveness of Cadence Virtuoso in optimizing analog circuit design for high-performance applications.
 
 ## Circuit Design
-![image](https://github.com/user-attachments/assets/b1aa01e7-392e-4080-9ef1-de1ac38210c3)
+
 
 ## Circuit Description
-The Common Drain Amplifier, also known as a source follower, is designed to provide a high input impedance and low output impedance, making it ideal for impedance matching and buffering applications. The goal of this assignment is to create the circuit schematic, perform simulations, and analyze its voltage gain, input/output impedance, and signal behavior under different input conditions.
+A differentiator amplifier is a type of analog circuit that produces an output voltage that is proportional to the rate of change (derivative) of the input voltage. It is typically implemented using an operational amplifier (op-amp) in an inverting configuration with a specific combination of resistors and capacitors.
 
 ## Getting Started Setting Up Cadence Virtuoso Open Terminal:
 
@@ -17,7 +17,7 @@ Right-click and open the terminal window. Enter the following commands: sh Copy 
 
 ## Creating New Library & Schematic:
 
-Library: File -> New -> Library, name it (e.g., VLSILAB_EXP_2), and attach it to the technology library gpdk045. Schematic Cell View: Go to File -> New -> Cell View, set up the library, cell, and view as follows: Library: Select your created library. Cell Name: E.g., Common_drain. View: Schematic. Adding Components and Connections:
+Library: File -> New -> Library, name it (e.g., VLSILAB_EXP_2), and attach it to the technology library gpdk045. Schematic Cell View: Go to File -> New -> Cell View, set up the library, cell, and view as follows: Library: Select your created library. Cell Name: E.g., diff amplifier_sche. View: Schematic. Adding Components and Connections:
 
 Use the instance tool to add components such as nmos1v and pmos1v. Add input and output pins, and make all connections using the wire tool.
 ![Screenshot 2024-11-11 190958](https://github.com/user-attachments/assets/52989d6c-d832-472a-9057-e7921ebf8034)
