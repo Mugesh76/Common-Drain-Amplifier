@@ -1,6 +1,6 @@
 ## VLSI Skill Assessment 
 
-## Common-Drain-Amplifier Design and Implementation using Cadence EDA Tools
+## Differential Amplifier Design and Implementation using Cadence EDA Tools
 
 ## Abstract
 To design and implement a Differentiator Amplifier circuit using Cadence EDA tools, simulate its functionality,Key performance metrics such as gain, common-mode rejection ratio (CMRR), and bandwidth are analyzed through schematic and post-layout simulations. The results demonstrate the effectiveness of Cadence Virtuoso in optimizing analog circuit design for high-performance applications.
